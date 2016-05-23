@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "sebarina xu" => "sebarinaxu@gmail.com" }
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "http://EXAMPLE/UTKeychainSecurity.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/sebarina/UTKeychainSecurity.git", :tag => "1.0.0" }
 
   s.source_files = "Source/**/*"
 

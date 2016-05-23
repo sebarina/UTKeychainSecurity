@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D48D74BB1CF3069000E6F07C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D48D74B91CF3069000E6F07C /* Info.plist */; };
-		D48D74BC1CF3069000E6F07C /* UTKeychainSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = D48D74BA1CF3069000E6F07C /* UTKeychainSecurity.h */; };
+		D48D74BC1CF3069000E6F07C /* UTKeychainSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = D48D74BA1CF3069000E6F07C /* UTKeychainSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D48D74BF1CF3069800E6F07C /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D74BD1CF3069800E6F07C /* KeychainWrapper.swift */; };
 		D48D74C01CF3069800E6F07C /* UTKeychainSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D74BE1CF3069800E6F07C /* UTKeychainSecurity.swift */; };
 /* End PBXBuildFile section */
@@ -245,7 +245,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UTKeychainSecurity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/UTKeychainSecurity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liufan.UTKeychainSecurity;
@@ -263,7 +263,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UTKeychainSecurity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/UTKeychainSecurity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liufan.UTKeychainSecurity;
