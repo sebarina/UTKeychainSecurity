@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D48D74AE1CF300B500E6F07C /* UTKeychainSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = D48D74AD1CF300B500E6F07C /* UTKeychainSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D48D74B61CF300DE00E6F07C /* UTKeychainSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D74B51CF300DE00E6F07C /* UTKeychainSecurity.swift */; };
-		D48D74B81CF3016300E6F07C /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D74B71CF3016300E6F07C /* KeychainWrapper.swift */; };
+		D48D74BB1CF3069000E6F07C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D48D74B91CF3069000E6F07C /* Info.plist */; };
+		D48D74BC1CF3069000E6F07C /* UTKeychainSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = D48D74BA1CF3069000E6F07C /* UTKeychainSecurity.h */; };
+		D48D74BF1CF3069800E6F07C /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D74BD1CF3069800E6F07C /* KeychainWrapper.swift */; };
+		D48D74C01CF3069800E6F07C /* UTKeychainSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D74BE1CF3069800E6F07C /* UTKeychainSecurity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D48D74AA1CF300B500E6F07C /* UTKeychainSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UTKeychainSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D48D74AD1CF300B500E6F07C /* UTKeychainSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTKeychainSecurity.h; sourceTree = "<group>"; };
-		D48D74AF1CF300B500E6F07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D48D74B51CF300DE00E6F07C /* UTKeychainSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTKeychainSecurity.swift; sourceTree = "<group>"; };
-		D48D74B71CF3016300E6F07C /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		D48D74B91CF3069000E6F07C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/UTKeychainSecurity/Info.plist; sourceTree = SOURCE_ROOT; };
+		D48D74BA1CF3069000E6F07C /* UTKeychainSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTKeychainSecurity.h; path = Source/UTKeychainSecurity/UTKeychainSecurity.h; sourceTree = SOURCE_ROOT; };
+		D48D74BD1CF3069800E6F07C /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = Source/KeychainWrapper.swift; sourceTree = "<group>"; };
+		D48D74BE1CF3069800E6F07C /* UTKeychainSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UTKeychainSecurity.swift; path = Source/UTKeychainSecurity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,8 +35,8 @@
 		D48D74A01CF300B500E6F07C = {
 			isa = PBXGroup;
 			children = (
-				D48D74B71CF3016300E6F07C /* KeychainWrapper.swift */,
-				D48D74B51CF300DE00E6F07C /* UTKeychainSecurity.swift */,
+				D48D74BD1CF3069800E6F07C /* KeychainWrapper.swift */,
+				D48D74BE1CF3069800E6F07C /* UTKeychainSecurity.swift */,
 				D48D74AC1CF300B500E6F07C /* UTKeychainSecurity */,
 				D48D74AB1CF300B500E6F07C /* Products */,
 			);
@@ -52,8 +53,8 @@
 		D48D74AC1CF300B500E6F07C /* UTKeychainSecurity */ = {
 			isa = PBXGroup;
 			children = (
-				D48D74AD1CF300B500E6F07C /* UTKeychainSecurity.h */,
-				D48D74AF1CF300B500E6F07C /* Info.plist */,
+				D48D74B91CF3069000E6F07C /* Info.plist */,
+				D48D74BA1CF3069000E6F07C /* UTKeychainSecurity.h */,
 			);
 			path = UTKeychainSecurity;
 			sourceTree = "<group>";
@@ -65,7 +66,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48D74AE1CF300B500E6F07C /* UTKeychainSecurity.h in Headers */,
+				D48D74BC1CF3069000E6F07C /* UTKeychainSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48D74BB1CF3069000E6F07C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48D74B61CF300DE00E6F07C /* UTKeychainSecurity.swift in Sources */,
-				D48D74B81CF3016300E6F07C /* KeychainWrapper.swift in Sources */,
+				D48D74C01CF3069800E6F07C /* UTKeychainSecurity.swift in Sources */,
+				D48D74BF1CF3069800E6F07C /* KeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +291,7 @@
 				D48D74B41CF300B500E6F07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
