@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://sebarina.wordpress.com"
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "sebarina xu" => "sebarinaxu@gmail.com" }
   s.ios.deployment_target = "8.0"
